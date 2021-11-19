@@ -26,9 +26,18 @@ public class Main {
         //TODO
         // the reader should accept the following values as true:
         // "true", "yes", "oh yeah", "great", "sure", "love to", "of course", "always", "never done otherwise"
+        Boolean ans2 = reader.readLine().equals("true");
+        Boolean ans3 = reader.readLine().equals("yes");
+        Boolean ans4 = reader.readLine().equals("oh yeah");
+        Boolean ans5 = reader.readLine().equals("great");
+        Boolean ans6 = reader.readLine().equals("sure");
+        Boolean ans7 = reader.readLine().equals("love to");
+        Boolean ans8 = reader.readLine().equals("of course");
+        Boolean ans9 = reader.readLine().equals("always");
+        Boolean ans10 = reader.readLine().equals("never done otherwise");
 
 
-        if (ans1) {
+        if (ans1 || ans2 || ans3 || ans4 || ans5 || ans6 || ans7 || ans8 || ans9 || ans10) {
             writer.write(good);
         } else {
             writer.write(bad);
